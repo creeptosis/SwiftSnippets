@@ -1,5 +1,5 @@
 This repo is a collection of swift snippets to ease day-to-day workflow
 
-Ben
+Creeptosis
 
-[Creeptosis@gmail.com](https://github.com/creeptosis/SwiftSnippets)
+[Creeptosis@gmail.com](https://github.com/creeptosis)
