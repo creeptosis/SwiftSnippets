@@ -1,8 +1,12 @@
 #ignore this
+<<<<<<< HEAD
 chapter1.txt
 chapter2.txt
 secrets.txt
+=======
+>>>>>>> chapters
 .DS_Store
+secrets.txt
 
 # Xcode
 #
