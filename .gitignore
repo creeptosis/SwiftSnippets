@@ -1,6 +1,7 @@
 #ignore this
 chapter1.txt
 chapter2.txt
+secrets.txt
 .DS_Store
 
 # Xcode
