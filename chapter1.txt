@@ -1,2 +1,4 @@
 I am chapter branch
-should stand alone
+
+Mo conflict pls i am master kc 
+>>>>>>> master
