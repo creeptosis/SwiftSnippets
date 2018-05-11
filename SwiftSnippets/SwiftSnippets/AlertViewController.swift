@@ -28,6 +28,8 @@ class AlertViewController: UIViewController {
         alert.addAction(action2);
         
         present(alert, animated:true, completion:nil);
+        
+        let customerBen = DefaultCustomer(name: "benjamin")
     }
     
     func doesNothing() { print("literally useless!")}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5D88B020A4142C005C94A0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D88AF20A4142C005C94A0 /* AnimationViewController.swift */; };
+		BD5D88B320A431E2005C94A0 /* DefaultCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D88B220A431E2005C94A0 /* DefaultCustomer.swift */; };
+		BD5D88B620A4325A005C94A0 /* CustomerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D88B520A4325A005C94A0 /* CustomerProtocol.swift */; };
 		BDB5D4BC20A4057400F850A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5D4BB20A4057400F850A0 /* AppDelegate.swift */; };
 		BDB5D4BE20A4057400F850A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5D4BD20A4057400F850A0 /* ViewController.swift */; };
 		BDB5D4C120A4057400F850A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB5D4BF20A4057400F850A0 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5D88AF20A4142C005C94A0 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		BD5D88B220A431E2005C94A0 /* DefaultCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCustomer.swift; sourceTree = "<group>"; };
+		BD5D88B520A4325A005C94A0 /* CustomerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProtocol.swift; sourceTree = "<group>"; };
 		BDB5D4B820A4057400F850A0 /* SwiftSnippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSnippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB5D4BB20A4057400F850A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB5D4BD20A4057400F850A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD5D88B120A431D5005C94A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D88B420A43251005C94A0 /* Protocols */,
+				BD5D88B220A431E2005C94A0 /* DefaultCustomer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD5D88B420A43251005C94A0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D88B520A4325A005C94A0 /* CustomerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BDB5D4AF20A4057300F850A0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +79,9 @@
 		BDB5D4BA20A4057400F850A0 /* SwiftSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				BD5D88B120A431D5005C94A0 /* Model */,
 				BDB5D4CF20A405BA00F850A0 /* AlertViewController.swift */,
+				BD5D88AF20A4142C005C94A0 /* AnimationViewController.swift */,
 				BDB5D4BB20A4057400F850A0 /* AppDelegate.swift */,
 				BDB5D4BD20A4057400F850A0 /* ViewController.swift */,
 				BDB5D4BF20A4057400F850A0 /* Main.storyboard */,
@@ -141,6 +166,9 @@
 				BDB5D4BE20A4057400F850A0 /* ViewController.swift in Sources */,
 				BDB5D4D020A405BA00F850A0 /* AlertViewController.swift in Sources */,
 				BDB5D4BC20A4057400F850A0 /* AppDelegate.swift in Sources */,
+				BD5D88B320A431E2005C94A0 /* DefaultCustomer.swift in Sources */,
+				BD5D88B020A4142C005C94A0 /* AnimationViewController.swift in Sources */,
+				BD5D88B620A4325A005C94A0 /* CustomerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
